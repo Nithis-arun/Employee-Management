@@ -1,8 +1,4 @@
 # Employee-Management
-Perfect ✅ — here’s a **ready-to-copy** README.md.
-You can **replace your current README.md file** content with this one directly in your GitHub editor or local repo (`Employee-Management/README.md`).
-
----
 
 ```markdown
 # 👨‍💼 Employee Management System
