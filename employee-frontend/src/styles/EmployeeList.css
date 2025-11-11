@@ -1,0 +1,126 @@
+/* Container */
+.employee-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.employee-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.employee-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.add-button {
+  padding: 8px 16px;
+  background-color: #1d4ed8;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.add-button:hover {
+  background-color: #1e40af;
+}
+
+/* No employees message */
+.no-employees {
+  text-align: center;
+  color: #555;
+  padding: 40px 0;
+}
+
+/* Employee list */
+.employee-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Employee card */
+.employee-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: box-shadow 0.2s;
+}
+
+.employee-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Employee info */
+.employee-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.employee-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.employee-text h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.employee-text p {
+  margin: 2px 0 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Employee actions buttons */
+.employee-actions button {
+  margin-left: 6px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 14px;
+}
+
+.employee-actions button:hover {
+  background-color: #eee;
+}
+
+/* Delete button */
+.employee-actions .delete-button {
+  background-color: #e53e3e;
+  color: #fff;
+  border: none;
+}
+
+.employee-actions .delete-button:hover {
+  background-color: #c53030;
+}
+
+/* Messages */
+.message, .error-message {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 16px;
+}
+
+.error-message {
+  color: #e53e3e;
+}
